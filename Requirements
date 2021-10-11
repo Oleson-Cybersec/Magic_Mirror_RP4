@@ -1,0 +1,40 @@
+For our magic mirror project, you can refer to the **Magic Mirror v2** requirements to get a full list. I will simply be referring to what I've used or recommendations as I went overboard to be safe. Things to also consider are what options you're looking for when buying your Raspberry Pi.
+
+When purchasing a RP4, I'd recommend at least _2 GB RAM_. I'd also purchase one that has _Wifi capabilities_ installed in order to maintain a slim profile with less cable management.
+
+For the operating system and files we'll be adding, I'd recommend at least 8 GB MicroSD card to be safe. The OS will take about 2 GB of storage and the rest can have space for files and backups if you mess anything up along the way.
+
+**Physical**
+- [ ] Raspberry Pi 4 Model B (2 GB Ram min; Wifi 2.4 GHz + Ethernet Port)
+- [ ] Thermal Paste + Heatsinks
+- [ ] Raspberry Pi Power Cable (5V 2.5A Type-C Adapter)
+- [ ] MicroHDMI to HDMI (Both Male Ends)
+- [ ] Ethernet Cable
+- [ ] MicroSD Card (8/16 GB) [8 is Ok, 16 would be ideal to have a lot more storage for backups or future projects when you reformat your MicroSD Card]
+- [ ] MicroSD Reader
+- [ ] Plug & Play Mouse + Keyboard w/ Dongle
+
+
+
+**Software Requirements**
+- [ ] Raspberry Pi OS with desktop
+_https://www.raspberrypi.com/software/operating-systems/_
+
+- [ ] SD Card Formatter
+https://www.sdcard.org/downloads/formatter/
+
+- [ ] BalenaEtcher _aka_ Etcher
+_https://www.balena.io/etcher/_
+
+
+**Optional**
+- [ ] Smart Plug
+- [ ] Raspberry Pi case
+- [ ] IP Scanner
+https://www.advanced-ip-scanner.com
+
+****
+
+**Additional Notes**
+Physical:
+- You could buy a Raspberry Pi kit that comes with most of the accessories you would need as it might be the more cost-effective route. However, if buy everything seperately, you guarentee you have all the right items, and not adding more accessories to your junk drawer.
