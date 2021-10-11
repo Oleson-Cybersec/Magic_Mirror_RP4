@@ -51,6 +51,9 @@ var config = {
                         calendars: [
                         {
                         url: "https://calendar.google.com/calendar/ical/Sensitive_information/"
+                        //Get link by going to Google Cal -> Settings -> Select Calendar within
+                        //'settings for my calendars' -> *Scroll down* -> Intergrate Calendar
+                        //Copy secret address in iCal format to url section above
                         defaultSymbol: 'calendar-week'
                         maximumEntries: '14'
                         fetchInterval: '3600000' // Update every 60 minutes
