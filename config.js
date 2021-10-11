@@ -54,11 +54,12 @@ var config = {
                         //Get link by going to Google Cal -> Settings -> Select Calendar within
                         //'settings for my calendars' -> *Scroll down* -> Intergrate Calendar
                         //Copy secret address in iCal format to url section above
-                        defaultSymbol: 'calendar-week'
-                        maximumEntries: '14'
-                        fetchInterval: '3600000' // Update every 60 minutes
+                        defaultSymbol: "calendar-week"
+                        maximumEntries: "14"
+                        fetchInterval: "3600000" // Update every 60 minutes
                         timeFormat: "DD MMM YY"
                         }
                                    ]
                         }
+                 ]
         },
