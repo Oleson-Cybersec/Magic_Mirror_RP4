@@ -10,7 +10,7 @@
  * and https://docs.magicmirror.builders/modules/configuration.html
  */
 let config = {
-        address: "localhost", "127.128.1.102", "127.168.1.101",   // Address to listen on, can be:
+        address: "localhost", "127.168.1.102", "127.168.1.101",   // Address to listen on, can be:
                                                         // - "localhost", "127.0.0.1", "::1" to listen on loopback interface
                                                         // - another specific IPv4/6 to listen on a specific interface
                                                         // - "0.0.0.0", "::" to listen on any interface
