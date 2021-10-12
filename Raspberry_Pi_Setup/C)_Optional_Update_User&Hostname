@@ -1,1 +1,87 @@
+As a default, the Rasbian distro has default credentials of [pi:raspberry].
+Given this, we know a threat actor could attempt to gain unathorized access by running the default username "pi" against a dictionary table.
+I would recommend changing your username as a script kiddy might use preconceved default usernames (i.e. pi, root) with a password table that will run throught thousands of basic passwords every second.
 
+If you haven't already change your default user's password and root's
+* NOTE: The default username's password will carry over when you change it
+
+Open a terminal window
+`CTL+ALT+T`
+
+`sudo passwd pi`
+* Write down somewhere safe to remember
+
+`sudo passwd root`
+* Write down somewhere safe to remember
+* If you forget your passwords, you will have to reset your entire project as a result
+
+`sudo raspi-config`
+* Similar to BIOS. Use arrow and enter keys to navigate
+
+`1 System Options --> S5 Boot/ Auto Login --> B3 Desktop (Desktop GUI, requiring user to login) <enter>`
+* *The Rasbian OS will keep assigning the user pi as process if you keep autologin activated. Switching to require login will remove this auto assigning process
+
+`<Finish>`
+
+`sudo reboot`
+
+
+Good work. Now we can use the drop down box to log in as root and input the password we created for the root user earlier.
+`Click pi --> See dropdown menu --> Click on `Other...`
+     *1st Box = root
+     *2nd Box = Strong_root_Password
+     
+*I ran into a GUI issue where I couldn't see any other icon besides the trashcan. You can still use `CTL+ALT+T` to open up your terminal
+
+*And since you're logged in as root, you will not need to add sudo to the following commands:
+
+`killall --user pi`
+
+`usermod -l [New_Username] [Old_Username]`  |  `usermod -l JOpi pi`
+* (-l / --login) = NEW LOGIN
+
+`usermod -m -d /home/[New_Username] [New_Username]`  |  `usermod -m -d /home/JOpi JOpi`
+* (-m / --move-home) + (-d / --home) = moves New_Username directory to the new location, and specifies the New_Username's directory location
+
+*If you don't see any errors and it goes to the next line, that's great. It mean that you're inputing valid syntax codes into the terminal
+
+**Let's Verify**
+
+`ls /home` -> Should show only one home directory for /home/[New_Username]
+     
+     * {Blue highlighted Words= Folders; White= Files; Green=Executable}
+
+`tail -n 1 /etc/passwd` -> Should show the newest user as 1000+ and show your new home directory
+*Ex. [New_Username]:x:1000:1000:,,,:/home/[New_Username]:/bin/bash
+
+
+**Now Let's Reboot Again to Login to our New User**
+`reboot`
+*Login at the GUI to your [New_Username]:[pi_password] you created earlier*
+ `CTL+ALT+T` --> `sudo raspi-config`
+1 System Options --> S5 Boot/ Auto Login --> B4 Desktop Autologin GUI (automattically logged in as [New_Username] user
+
+1 System Options --> S4 Hostname --> <Ok> --> *Setup a hostname* (i.e. MagicMirror)
+     *Changing the hostname will change the characters after the username
+     *NewUsername@Hostname   |   JOpi@MagicMirror
+     
+1 System Options --> S6 Network at Boot (Select wait for network connection at boot) --> <No> --> <Ok>
+     *This will boot the Rasbian OS without needing a network connection first
+     *This is best since there can be an occation your network goes down, or you run into network issues on your Raspberry Pi and you can still login with limited functionality at the terminal
+
+1 System Options --> S1 Wireless LAN (Enter SSID and passphrase) --> *Type SSID verbatium with every character (i.e. `This is the FBI`) --> <Ok> --> *Type Wifi Password verbatium* <Ok>
+
+*Setup Timezone and local country for Wifi legislation laws
+
+     *Raspberry Pi 4 as of now only allows connections to the 2.4 GHz frequency, so your 5.0 GHz network won't work. If you have your router set to auto connect, it might not work correct, which I would recommend making two SSID's (one for 2.4GHz and 5.0GHz signals). Then connect all portable devices (i.e. cell phones, laptops, etc) and connnect devices that require faster internet and are stationary (i.e. desktop computer)
+     
+<Finish> --> "Would you like to reboot now?" <Yes>
+
+
+
+
+**Let's Review What we have Done**
+*Strengthened our default password
+*Strengthened our root password
+*Strengthened our account overall by customing the default username
+*Setup your home directory for your new username
