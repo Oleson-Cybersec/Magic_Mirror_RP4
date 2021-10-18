@@ -4,7 +4,7 @@
 
 [Edit Raspberry Pi BIOS](#part-2-edit-raspberry-pi-bios)
 
-[Login as 'root'](#part-3-)
+[Login as 'root'](#part-3-login-as-root)
 
 [Alter Username](#part-4-alter-username)
 
