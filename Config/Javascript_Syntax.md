@@ -7,7 +7,7 @@ position: "top_left"
 
 * Word/token left of `:` does NOT need quotes
 * Values right of `:` conditionally need quotes
-    * If the value is a number (24, ; -73.983552)  or  boolean (true ; false)  -- Do NOT need quotes
+    * If the value is a number (24,  ;  -73.983552)  or  boolean (true ; false)  -- Do NOT need quotes
     * if it contains other characters ("Bobby" ; "12FFs234q" ; "11:23") -- Needs quotes
 
 * I recommemend indending each line that goes together to make your code more human-readable
