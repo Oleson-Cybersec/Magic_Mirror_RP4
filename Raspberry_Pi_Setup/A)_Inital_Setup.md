@@ -31,7 +31,8 @@ For my project, I decided to create a stand-alone monitor with a Raspberry Pi4 a
     * Recommended to work on the GUI side of your Magic Mirror project. However, this can all be accomplished with using the command line. I will be walking you through the CLI (command line interface) in a detailed manner for the newest person in the room to to the CLI and/or Linux!
 - [ ] Smart Plug w/ App
     * Recommended so that you can turn the Magic Mirror on from anywhere on or off your network. I wake up in the morning and turn on my monitor from the bedroom before I go to my home office.
-    * I'm using a "Feit Electric - Indoor Smart Plug" with their app to accomplish this, but I'm sure they're plenty similar options.
+    * Make sure you plug your power cable into this smart plug so you can turn your RP on and off via app.
+    * I'm using a "*Feit Electric Indoor Smart Plug*" with their app to accomplish this, but I'm sure they're plenty similar options.
 
 
 ***
