@@ -32,16 +32,17 @@ let config = {
 	timeFormat: 24,
 	units: "imperial",
 	// serverOnly:  true/false/"local" ,
-	// local for armv6l processors, default
-	//   starts serveronly and then starts chrome browser
-	// false, default for all NON-armv6l devices
-	// true, force serveronly mode, because you want to.. no UI on this device
+		// local for armv6l processors, default
+		// starts serveronly and then starts chrome browser
+		// false, default for all NON-armv6l devices
+		// true, force serveronly mode, because you want to.. no UI on this device
 
-  //
-	// Go to: "https://github.com/MichMich/MagicMirror/wiki/3rd-party-modules" to find 3rd Party Modules to add to your Magic Mirror!
-  //
-  // Different position include: "top_bar, top_left, top_center, top_right, upper_third, middle_center, lower_third, bottom_left, bottom_center, bottom_right, bottom_bar, fullscreen_above, and fullscreen_below"
-
+	//
+	// Go to: "https://github.com/MichMich/MagicMirror/wiki/3rd-party-modules" to find 3rd-party modules to add to your Magic Mirror!
+	//
+	// Different position include: top_bar, top_left, top_center, top_right, upper_third, middle_center, lower_third, bottom_left, bottom_center, bottom_right, bottom_bar, fullscreen_above, and fullscreen_below
+	//
+	
 	modules: [
 		{
 			module: "alert",
@@ -127,10 +128,10 @@ let config = {
 			config: {
 					restart: "true",
 					debug: "true"
-              }
+				}
 		},
-	]
-};
+	] 		// This bracket closes out the "modules: [" above
+}; 		// This bracket closes out the "let config = {" above
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
 if (typeof module !== "undefined") {module.exports = config;}
