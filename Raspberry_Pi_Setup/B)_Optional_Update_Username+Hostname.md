@@ -12,7 +12,7 @@
 
 [Reboot and Reconfigure our BIOS](#part-6-)
 
-[Review](#part-7-)
+[Review](#review-what-we-accomplished)
 
 
 
