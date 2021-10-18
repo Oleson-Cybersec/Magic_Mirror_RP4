@@ -99,10 +99,10 @@ let config = {
               						// Find your url by going to your Google Calendar:
 							// Settings menu --> Settings --> *Find 'Settings for calendars'* --> Click on "Assignments Due" or whichever calendar you wish to add --> Within calendar settings (first option) scoll all the way to the bottom to find your "Secret address in iCal format" --> "Copy to clipboard" --> Paste code in the URL section above
 						fetchInterval: 6000 // 1 minute updates
-					}, // <-- Closes out "{" brack below "calendars: [" above
-				] // <-- Closes out "calendars: [" above
-			} // <-- closes out "config: {" above
-		},// <-- Closes out "{" for the module and prepares for another module after the comma
+					},  // <-- Closes out "{" brack below "calendars: [" above
+				]  // <-- Closes out "calendars: [" above
+			}  // <-- closes out "config: {" above
+		},  // <-- Closes out "{" for the module and prepares for another module after the comma
 		{
 			module: "MMM-MyStudyLife",	// Not sure why, this module doesn't work for me as of posting
 			position: "bottom_right",
@@ -132,10 +132,10 @@ let config = {
 			config: {
 					restart: "true",
 					debug: "true"
-				}
-		},
-	] 		// This bracket closes out the "modules: [" above
-}; 		// This bracket closes out the "let config = {" above
+				}  // This bracket closes out the "config : {" above
+		},  // This bracket closes out the "{" encapsulating the module above
+	]  // This bracket closes out the "modules: [" above
+};  // This bracket closes out the "let config = {" above
 
 /*************** DO NOT EDIT THE LINE BELOW ***************/
 if (typeof module !== "undefined") {module.exports = config;}
