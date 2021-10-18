@@ -1,4 +1,15 @@
 # Changing the Default Username & Hostname
+#### Table of Contents  
+[Update_Passwords](#updatepasswords)
+[Edit Raspberry Pi BIOS](#editraspberrypibios)
+Login as 'root'
+Alter Username
+Verify your Username got Updated Correctly
+Reboot and Reconfigure our BIOS
+Review
+
+
+
 As a default, the Rasbian distro has default credentials of 
 * User: pi
 * Pass: raspberry
@@ -36,7 +47,7 @@ Good work. Now we can use the drop down box to log in as root and input the pass
      *1st Box = root
      *2nd Box = Strong_root_Password
 ***
-### Part 4: Command Line at Work
+### Part 4: Alter Username
 For the following commands, we don't need to use `sudo` since we are logged in a root!
 
 If you run into a GUI issue where you can only see the trashcan, press the following keys:
