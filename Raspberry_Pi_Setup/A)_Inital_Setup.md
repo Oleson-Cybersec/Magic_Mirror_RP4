@@ -1,4 +1,9 @@
 # Intial Setup
+#### Table of Contents  
+[Physical](#physical)
+
+***
+
 First things first, you're going to need to have all of the physcial components to actual create this project. For my project, I decided to create a stand-alone monitor with a Raspberry Pi4 attached to the back with zip ties and some cable managment. Make sure you have the following:
 
 ![alt text](https://github.com/OlesonCrypto/Magic_Mirror_RP4/blob/main/Images/Physical_Requirements.PNG "Physical Requirements Needed")
