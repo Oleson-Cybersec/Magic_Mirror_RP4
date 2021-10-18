@@ -10,7 +10,7 @@
 
 [Verify your Username got Updated Correctly](#part-5-)
 
-[Reboot and Reconfigure our BIOS](#part-6-)
+[Reboot and Reconfigure our BIOS](#part-6-reboot-and-reconfigure-our-bios)
 
 [Review](#review-what-we-accomplished)
 
