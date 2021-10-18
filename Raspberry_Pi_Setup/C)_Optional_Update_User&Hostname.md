@@ -110,6 +110,8 @@ Raspberry Pi 4 as of now, only allows connections to the 2.4 GHz frequency, ther
     
 * Strengthened our default password
 * Strengthened our root password
-* Strengthened our account overall by customing the default username
+* Strengthened our account overall by changing our default username
 * Setup your home directory for your new username
-* Having your Wifi up and operational so you don't have to rely on an ethernet cable. This gives you the Wifi option now, which in turn reduces the amount of cable management
+* Configured BIOS to your region & timezone
+* Configured to autologin your default account so your Magic Mirror will start up automatically when you turn your Pi on
+* Connected to your network via ethernet & WiFi
