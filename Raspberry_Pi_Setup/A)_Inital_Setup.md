@@ -1,10 +1,11 @@
 # Intial Setup
 #### Table of Contents  
-[Physical](#physical)
+[Physical](#physical)  |  [Software](#software)
 
 ***
 
-First things first, you're going to need to have all of the physcial components to actual create this project. For my project, I decided to create a stand-alone monitor with a Raspberry Pi4 attached to the back with zip ties and some cable managment. Make sure you have the following:
+First things first, you're going to need to have all of the physcial components to actual create this project. Then we'll be downloading all the software related content for the operating system.
+For my project, I decided to create a stand-alone monitor with a Raspberry Pi4 attached to the back with zip ties and some cable managment. Make sure you have the following:
 
 ![alt text](https://github.com/OlesonCrypto/Magic_Mirror_RP4/blob/main/Images/Physical_Requirements.PNG "Physical Requirements Needed")
 
@@ -35,4 +36,16 @@ First things first, you're going to need to have all of the physcial components 
 
 For instance, I purchased a bundle with an aluminum casing and thermal sticker + thermal paste. My RP was burning up after 30 minutes, burned right through the thermal stickers. I went ahead and purchased a new plastic case, that came with heatsink w/ stickers and a fan to plug into the pins. My RP now runs much cooler, and quieter.
 
+***
+## Software
+- [ ] SD Card Formatter
+   * Used to format your SD card. I'd recommend using `Overwrite format` switch to ensure data is cleaned, then label volume (ie. MagicMirror)
+      * https://www.sdcard.org/downloads/formatter/
 
+- [ ] balenaEtcher (aka Etcher)
+   * Used to flash the MicroSD Card. You have to use a program like this to install the operating system onto a flash media device.
+      * https://www.balena.io/etcher/
+
+- [ ] Rasbian Operating System -- *Raspberry Pi OS with desktop*
+   * This is the operating system you should use for your Raspberry Pi project. You don't need the recommended software, just the minimum and we'll update and upgrade when after we initialize our Pi.
+      * https://www.raspberrypi.com/software/operating-systems/ 
