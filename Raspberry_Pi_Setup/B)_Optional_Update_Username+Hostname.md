@@ -1,12 +1,19 @@
 # Changing the Default Username & Hostname
-#### Table of Contents  
-[Update_Passwords](#updatepasswords)
-[Edit Raspberry Pi BIOS](#editraspberrypibios)
-Login as 'root'
-Alter Username
-Verify your Username got Updated Correctly
-Reboot and Reconfigure our BIOS
-Review
+### Table of Contents  
+[Update_Passwords](#part-1-update-passwords)
+
+[Edit Raspberry Pi BIOS](#part-2-edit-raspberry-pi-bios)
+
+[Login as 'root'](#part-3-)
+
+[Alter Username](#part-4-)
+
+[Verify your Username got Updated Correctly](#part-5-)
+
+[Reboot and Reconfigure our BIOS](#part-6-)
+
+[Review](#part-7-)
+
 
 
 
