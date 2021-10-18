@@ -44,10 +44,14 @@ let config = {
 	//
 	
 	modules: [
+			// Ever module must go between a "{" & "}," to close it out. Whatever bracket it starts with, must finish with it. {} or []. Add a comma if it's the last bracket in module.
+			// Add commas after each value, unless it's the last value. Numbers + Booleans don't need quotes for values, everything else does. Token don't need quotes either.
+			// Tab each group together to make it more readable and find syntax errors easier!
 		{
 			module: "alert",
 			position: "bottom_bar"
 		},
+			
 		{
 			module: "updatenotification",
 			position: "top_bar"
@@ -90,15 +94,15 @@ let config = {
 						symbol: "calendar-plus-o",
 						url: "https://calendar.google.com/calendar/ical/_***INSERT_PRIVATE_SHARE_LINK_HERE/basic.ics***_",
 							// I created a new calandar and input dates that my assignments were due. 
-              // For instance I first create a new calandar called: "Assignments Due"
-              // Then I would create a new assignment inside this called: "ENGL ~ Compare & Contrast Rough Draft" for a paper due on Oct 01 @2359 to Oct 01 @2359 
-              // Find your url by going to your Google Calendar:
+              						// For instance I first create a new calandar called: "Assignments Due"
+           						// Then I would create a new assignment inside this called: "ENGL ~ Compare & Contrast Rough Draft" for a paper due on Oct 01 @2359 to Oct 01 @2359 
+              						// Find your url by going to your Google Calendar:
 							// Settings menu --> Settings --> *Find 'Settings for calendars'* --> Click on "Assignments Due" or whichever calendar you wish to add --> Within calendar settings (first option) scoll all the way to the bottom to find your "Secret address in iCal format" --> "Copy to clipboard" --> Paste code in the URL section above
 						fetchInterval: 6000 // 1 minute updates
-					},
-				]
-			}
-		},
+					}, // <-- Closes out "{" brack below "calendars: [" above
+				] // <-- Closes out "calendars: [" above
+			} // <-- closes out "config: {" above
+		},// <-- Closes out "{" for the module and prepares for another module after the comma
 		{
 			module: "MMM-MyStudyLife",	// Not sure why, this module doesn't work for me as of posting
 			position: "bottom_right",
