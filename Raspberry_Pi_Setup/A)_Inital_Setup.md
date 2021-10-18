@@ -4,7 +4,7 @@
 
 ***
 
-First things first, you're going to need to have all of the physcial components to actual create this project. Then we'll be downloading all the software related content for the operating system.
+To begin this project, we're going to need to have all of the physcial components to actual create it. Then we'll be downloading all the software related content for the operating system.
 For my project, I decided to create a stand-alone monitor with a Raspberry Pi4 attached to the back with zip ties and some cable managment. Make sure you have the following:
 
 ![alt text](https://github.com/OlesonCrypto/Magic_Mirror_RP4/blob/main/Images/Physical_Requirements.PNG "Physical Requirements Needed")
