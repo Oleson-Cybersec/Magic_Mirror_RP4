@@ -1,21 +1,20 @@
 # Changing the Default Username & Hostname
 ### Table of Contents  
-[Update_Passwords](#part-1-update-passwords)
+[Part 1: Update_Passwords](#part-1-update-passwords)
 
-[Edit Raspberry Pi BIOS](#part-2-edit-raspberry-pi-bios)
+[Part 2: Edit Raspberry Pi BIOS](#part-2-edit-raspberry-pi-bios)
 
-[Login as 'root'](#part-3-login-as-root)
+[Part 3: Login as 'root'](#part-3-login-as-root)
 
-[Alter Username](#part-4-alter-username)
+[Part 4: Alter Username](#part-4-alter-username)
 
-[Verify your Username got Updated Correctly](#part-5-)
+[Part 5: Verify your Username got Updated Correctly](#part-5-verify-your-username-got-updated-correctly)
 
-[Reboot and Reconfigure our BIOS](#part-6-reboot-and-reconfigure-our-bios)
+[Part 6: Reboot and Reconfigure our BIOS](#part-6-reboot-and-reconfigure-our-bios)
 
-[Review](#review-what-we-accomplished)
+[Part 7: Review](#review-what-we-accomplished)
 
-
-
+***
 
 As a default, the Rasbian distro has default credentials of 
 * User: pi
