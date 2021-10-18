@@ -63,10 +63,10 @@ let config = {
 			module: "weather",
 			position: "top_right",
 			config: {
-				weatherProvider: "openweathermap",  // Create an account for free to recieve your API key
-				type: "forecast",                   // See documentation online
-          location: "New York City, US",    // City, Country_code
-				locationID: "5128581",              // Search your weather area, then Copy location + ID
+				weatherProvider: "openweathermap",	// Create an account for free to recieve your API key
+				type: "forecast",			// See documentation online
+          			location: "New York City, US",		// City, Country_code
+				locationID: "5128581",			// Search your weather area, then Copy location + ID
 				apiKey: "0101010101a0a0101a01010aa010a101", 	// Create an account to recieve key
 				units: "imperial",
 				roundTemp: "true",
@@ -102,7 +102,9 @@ let config = {
 			module: "MMM-MyStudyLife",	// Not sure why, this module doesn't work for me as of posting
 			position: "bottom_right",
 			config: {
-				code: "AAAAAAAAAAAAAAAAAAAA:BBBBBBBBBBBBBBBBBBBBBBBBBBB=",	// Go to your dashboard on MyStudyLife --> *Press F12* --> *Click on Console* --> *Click right of the ">>"* --> Input: "localStorage" to see your key right of "_:"
+				code: "AAAAAAAAAAAAAAAAAAAA:BBBBBBBBBBBBBBBBBBBBBBBBBBB=",	
+				// Login to your MyStudyLife.com, then go to your dashboard --> *Press F12* --> *Click on Console* --> 
+				// *Click right of the ">>"* --> Input: "localStorage" to see your key right of " _: ", Should look similar to the code above
 				showSchedule: true,
 				showExams: true,
 				showTasks: true,
