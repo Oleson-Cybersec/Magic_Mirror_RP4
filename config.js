@@ -1,4 +1,4 @@
-/* My Magic Mirror config.js file w/ sensative information redacted to ensure privacy remains intact. Please do the same if you share with friends or family.
+/* My Magic Mirror config.js file w/ sensitive information redacted to ensure privacy. Please do the same for your sensitive information when sharing w/ anyone!
  *
  * By Michael Teeuw https://michaelteeuw.nl
  * MIT Licensed.
