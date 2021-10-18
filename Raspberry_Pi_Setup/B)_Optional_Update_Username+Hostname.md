@@ -6,7 +6,7 @@
 
 [Login as 'root'](#part-3-)
 
-[Alter Username](#part-4-)
+[Alter Username](#part-4-alter-username)
 
 [Verify your Username got Updated Correctly](#part-5-)
 
