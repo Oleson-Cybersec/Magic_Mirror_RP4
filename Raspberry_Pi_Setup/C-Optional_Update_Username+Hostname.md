@@ -1,6 +1,6 @@
 # Changing the Default Username & Hostname
 ### Table of Contents  
-[Part 1: Update_Passwords](#part-1-update-passwords)
+[Part 1: Update Passwords](#part-1-update-passwords)
 
 [Part 2: Edit Raspberry Pi BIOS](#part-2-edit-raspberry-pi-bios)
 
